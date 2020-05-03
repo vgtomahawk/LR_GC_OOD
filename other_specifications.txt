@@ -1,0 +1,6 @@
+requirements.txt lists the python packages and their corresponding versions. This file is to specify other things which don't fit in that template.
+
+Python 3.7.4 was the version of python used
+
+glove.6B.100d.txt were the version of pretrained embeddings used. Note that these were only used to initialize those word forms from our vocabulary which were found in the vocabulary of 
+glove.6B.100d as well - the remaining word forms from our vocabulary were left as initialized [randomly] (Refer to code/ for more details)
