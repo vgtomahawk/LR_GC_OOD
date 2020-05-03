@@ -1,5 +1,5 @@
 # LR_GC_OOD
-Code [Under Progress] &amp; Data for the AAAI 2020 Paper <a href="https://arxiv.org/pdf/1912.12800.pdf">"Likelihood Ratios and Generative Classifiers For Unsupervised OOD Detection In Task-Based Dialog"</a><br/>
+Code &amp; Data for the AAAI 2020 Paper <a href="https://arxiv.org/pdf/1912.12800.pdf">"Likelihood Ratios and Generative Classifiers For Unsupervised OOD Detection In Task-Based Dialog"</a><br/>
 
 
 <b> Data: </b> <br/>
