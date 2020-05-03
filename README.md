@@ -2,7 +2,7 @@
 Code [Under Progress] &amp; Data for the AAAI 2020 Paper <a href="https://arxiv.org/pdf/1912.12800.pdf">"Likelihood Ratios and Generative Classifiers For Unsupervised OOD Detection In Task-Based Dialog"</a><br/>
 
 
-<b> Data </b> <br/>
+<b> Data: </b> <br/>
 The ROSTD dataset of OOD points can be found under <i>data/fbrelease</i> <br/>
 This tsv file contains ~4500 OOD examples. The 3rd field of each line contains the sentence. <br/>
 This is the only field which could be of interest - the other fields are vestigial and can be ignored. <br/>
@@ -12,7 +12,7 @@ This ID dataset can be found in its original form <a href="https://fb.me/multili
 
 Alternatively, you can directly use the splits we made (with ID train, and ID-OOD mixed validation and test) as described under the <b>"Dataset Splits"</b> section below. 
 
-<b> Reference </b> <br/>
+<b> Reference: </b> <br/>
 If you find our code or data useful, please consider citing our paper: <br/>
 ```
 @article{gangal2019likelihood,
@@ -22,9 +22,13 @@ If you find our code or data useful, please consider citing our paper: <br/>
   year={2019}
 }
 ```
-
 <br/>
-<b> Code [Under Progress] </b> <br/>
+
+
+<b> Contact: </b> <br/>
+For any questions or issues, either raise an issue here or drop an email at vgangal@andrew.cmu.edu <br/>
+
+<b> Code: [Under Progress] </b> <br/>
 
 Refer to <b>requirements.txt</b> for the python package requirements
 For other specifications, refer to <b>other_specifications.txt</b>
