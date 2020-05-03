@@ -4,3 +4,9 @@ Python 3.7.4 was the version of python used
 
 glove.6B.100d.txt were the version of pretrained embeddings used. Note that these were only used to initialize those word forms from our vocabulary which were found in the vocabulary of 
 glove.6B.100d as well - the remaining word forms from our vocabulary were left as initialized [randomly] (Refer to code/ for more details)
+
+
+<b>Setting up the word embeddings path:</b>
+1. Go to code/vector_cache <br/>
+2. Download from the stanford glove repo (wget http://nlp.stanford.edu/data/glove.6B.zip)
+3. Run <i>python convertGloveTxtToNumpyMatrix.py glove.6B.100d.txt</i> 
