@@ -1,8 +1,27 @@
 # LR_GC_OOD
-Code [Under Progress] &amp; Data for the AAAI 2020 Paper "Likelihood Ratios and Generative Classifiers For Unsupervised OOD Detection In Task-Based Dialog"
+Code [Under Progress] &amp; Data for the AAAI 2020 Paper <a href="https://arxiv.org/pdf/1912.12800.pdf">"Likelihood Ratios and Generative Classifiers For Unsupervised OOD Detection In Task-Based Dialog"</a><br/>
 
 
-<b> Code [Under Progress]: </b>
+<b> Data </b> <br/>
+The ROSTD dataset of OOD points can be found under <i>data/fbrelease</i> <br/>
+This tsv file contains ~4500 OOD examples. The 3rd field of each line contains the sentence. <br/>
+This is the only field which could be of interest - the other fields are vestigial and can be ignored. <br/>
+
+Note that this OOD dataset is a companion to the ID dataset released as part of the paper <i>"Cross-lingual transfer learning for multilingual task oriented dialog"</i> by Schuster et al at NAACL 2019.<br/>
+This ID dataset can be found in its original form <a href="https://fb.me/multilingual_task_oriented_data">here</a>.<br/>
+
+Alternatively, you can directly use the splits we made (with ID train, and ID-OOD mixed validation and test) as described under the <b>"Dataset Splits"</b> section below. 
+
+<b> Reference </b> <br/>
+If you find our code or data useful, please consider citing our paper: <br/>
+@article{gangal2019likelihood,
+  title={Likelihood Ratios and Generative Classifiers for Unsupervised Out-of-Domain Detection In Task Oriented Dialog},
+  author={Gangal, Varun and Arora, Abhinav and Einolghozati, Arash and Gupta, Sonal},
+  journal={arXiv preprint arXiv:1912.12800},
+  year={2019}
+}
+<br/>
+<b> Code [Under Progress] </b> <br/>
 
 Refer to <b>requirements.txt</b> for the python package requirements
 For other specifications, refer to <b>other_specifications.txt</b>
