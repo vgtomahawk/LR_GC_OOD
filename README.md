@@ -42,3 +42,5 @@ train_for_atis.sh - Commands for atis
 
 train_for_snips.sh - Commands for snips
 
+Notes:
+   - In all of these scripts, you will need to set super_root to point to where the repo resides on your system. We need this because we use torchtext to preprocess, create the vocabulary, load and mini     batch our datasets, and we could only get it to work with absolute path specifications.
