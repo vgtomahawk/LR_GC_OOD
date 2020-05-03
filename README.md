@@ -22,7 +22,7 @@ Please ignore code/model_gan.py and code/wasserstein.py. They are not really use
 
 Dataset Splits:
 
-- For fbrelease and fbreleasecoarse
+- <b>For fbrelease and fbreleasecoarse</b>
 	You can directly find the ready-to-use dataset splits under code/data/{dataset_name}/unsup/ for dataset_name = fbrelease / fbreleasecoarse
 	This already contains the plain id train split and the id-ood mixed dev and test splits
 	Note that only the ood part of the fbrelease dev and test splits constitutes our own released data. The rest is formed from existing datasets.
