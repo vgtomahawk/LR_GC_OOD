@@ -14,6 +14,8 @@ code/train.py: Contains the training and inference mechanism
 code/model.py: Specifices architecture for most of the models e.g Discriminative Classifier, Generative Classifier etc
 code/oodmetrics.py: Code for computing the ood-related metrics such as AUROC 
 
+Please ignore code/model_gan.py and code/wasserstein.py. They are not really used much for the paper experiments, but we have just retained them to not meddle with the imports.
+
 
 Shell Scripts:
 train_for_fbrelease.sh - Commands for fbrelease i.e ROSTD with its corresponding id training set and validation sets
