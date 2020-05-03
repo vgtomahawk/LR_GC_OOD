@@ -26,7 +26,7 @@ Dataset Splits:
 	You can directly find the ready-to-use dataset splits under code/data/{dataset_name}/unsup/ for dataset_name = fbrelease / fbreleasecoarse <br/>
 	This already contains the plain id train split and the id-ood mixed dev and test splits <br/>
 	Note that only the ood part of the fbrelease dev and test splits constitutes our own released data. The rest is formed from existing datasets. <br/>
-- <b> For atis and snips <b/>
+- <b> For atis and snips </b>
         You will need to run some scripts to do random splitting where a fraction of classes are held out as OOD. <br/>
         The code/data/{dataset_name}/preprocess_{dataset_name}.sh need to be run for this. (Where dataset_name = atis/snips)<br/> 
 
@@ -43,4 +43,4 @@ train_for_atis.sh - Commands for atis <br/>
 train_for_snips.sh - Commands for snips <br/>
 
 <b>Notes:</b><br/>
-   - In all of these scripts, you will need to set <b>super_root</b> to point to where the repo resides on your system. We need this because we use torchtext to preprocess, create the vocabulary, load and mini     batch our datasets, and we could only get it to work with absolute path specifications.
+   - In all of these scripts, you will need to set <b>super_root</b> to point to where the repo resides on your system. We need this because we use torchtext to preprocess, create the vocabulary, load and minibatch our datasets, and we could only get it to work with absolute path specifications.
