@@ -14,12 +14,15 @@ Alternatively, you can directly use the splits we made (with ID train, and ID-OO
 
 <b> Reference </b> <br/>
 If you find our code or data useful, please consider citing our paper: <br/>
+```
 @article{gangal2019likelihood,
   title={Likelihood Ratios and Generative Classifiers for Unsupervised Out-of-Domain Detection In Task Oriented Dialog},
   author={Gangal, Varun and Arora, Abhinav and Einolghozati, Arash and Gupta, Sonal},
   journal={arXiv preprint arXiv:1912.12800},
   year={2019}
 }
+```
+
 <br/>
 <b> Code [Under Progress] </b> <br/>
 
