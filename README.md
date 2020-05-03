@@ -2,13 +2,13 @@
 Code [Under Progress] &amp; Data for the AAAI 2020 Paper "Likelihood Ratios and Generative Classifiers For Unsupervised OOD Detection In Task-Based Dialog"
 
 
-<b> Code [Under Progress]: <b/>
+<b> Code [Under Progress]: </b>
 
 Refer to <b>requirements.txt</b> for the python package requirements
 For other specifications, refer to <b>other_specifications.txt</b>
 
 
-<b> Code Structure and TLDR: <b/>
+<b> Code Structure and TLDR: </b>
 
 code/util.py: Contains most of the argument speficications. Ignore arguments or argument groups with an "IGNORE" comment on top of them <br/>
 
