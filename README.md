@@ -1,5 +1,5 @@
 # LR_GC_OOD
-Code [Under Progress] &amp; Data for the AAAI 2020 Paper <a href="https://arxiv.org/pdf/1912.12800.pdf">"Likelihood Ratios and Generative Classifiers For Unsupervised OOD Detection In Task-Based Dialog"</a><br/>
+Code &amp; Data for the AAAI 2020 Paper <a href="https://arxiv.org/pdf/1912.12800.pdf">"Likelihood Ratios and Generative Classifiers For Unsupervised OOD Detection In Task-Based Dialog"</a><br/>
 
 
 <b> Data: </b> <br/>
@@ -36,7 +36,7 @@ For other specifications, refer to <b>other_specifications.txt</b>
 
 <b> Code Structure and TLDR: </b>
 
-<i>code/util.py</i>: Contains most of the argument speficications. Ignore arguments or argument groups with an "IGNORE" comment on top of them <br/>
+<i>code/util.py</i>: Contains most of the argument specifications. Ignore arguments or argument groups with an "IGNORE" comment on top of them <br/>
 
 <i>code/train.py</i>: Contains the training and inference mechanism <br/>
 
