@@ -94,7 +94,7 @@ def get_args():
 
 
 
-    #IGNORE Uses the hidden state directly without using additional intermediate linear+non-linear projection layers
+    #Uses the hidden state directly without using additional intermediate linear+non-linear projection layers
     parser.add_argument('--short_circuit_main',action='store_true')
     #Return the intermediate representation from before the linear layer of the softmax. This is required for the --euclidean, --manhattan, --mahalanobis methods
     parser.add_argument('--returnIntermediate', action='store_true')
