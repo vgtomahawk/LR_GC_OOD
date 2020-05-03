@@ -36,7 +36,7 @@ For other specifications, refer to <b>other_specifications.txt</b>
 
 <b> Code Structure and TLDR: </b>
 
-<i>code/util.py</i>: Contains most of the argument speficications. Ignore arguments or argument groups with an "IGNORE" comment on top of them <br/>
+<i>code/util.py</i>: Contains most of the argument specifications. Ignore arguments or argument groups with an "IGNORE" comment on top of them <br/>
 
 <i>code/train.py</i>: Contains the training and inference mechanism <br/>
 
