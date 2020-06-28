@@ -1,17 +1,17 @@
-#SUP_DIR="sup"
-#if [ ! -d "$SUP_DIR" ]; then
-#  echo "Creating $SUP_DIR"
-#  mkdir "$SUP_DIR"
-#fi
+SUP_DIR="sup"
+if [ ! -d "$SUP_DIR" ]; then
+  echo "Creating $SUP_DIR"
+  mkdir "$SUP_DIR"
+fi
 
-#echo "Generating Supervised Data"
+echo "Generating Supervised Data"
 
-#echo "Converting Train"
-#python convert_snips_to_assistant_format.py train.csv sup/train.tsv sup
-#echo "Converting Valid"
-#python convert_snips_to_assistant_format.py valid.csv sup/eval.tsv
-#echo "Converting Test"
-#python convert_snips_to_assistant_format.py test.csv sup/test.tsv
+echo "Converting Train"
+python convert_snips_to_assistant_format.py train.csv sup/train.tsv sup
+echo "Converting Valid"
+python convert_snips_to_assistant_format.py valid.csv sup/eval.tsv
+echo "Converting Test"
+python convert_snips_to_assistant_format.py test.csv sup/test.tsv
 
 echo "Done Generating Supervised Data"
 
